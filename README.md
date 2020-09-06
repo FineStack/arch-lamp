@@ -1,1 +1,1 @@
-# setup-lamp-stack-arch-linux
+# Setup LAMP Stack on Arch Linux
