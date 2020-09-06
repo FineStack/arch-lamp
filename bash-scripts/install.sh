@@ -1,1 +1,1 @@
-pacman -S apache mariadb php php-fpm --noconfirm
+pacman -S apache mariadb php php-fpm phpmyadmin --noconfirm
