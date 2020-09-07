@@ -1,3 +1,4 @@
+print('https://phpsolved.com/phpmyadmin-blowfish-secret-generator/')
 blowfish = input('Enter the blowfish from the website: - ')
 
 with open('/etc/webapps/phpmyadmin/config.inc.php') as file:
