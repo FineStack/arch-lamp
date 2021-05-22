@@ -4,6 +4,7 @@ with open("/etc/php/php.ini") as file:
 text = text.replace(";extension=pdo_mysql", "extension=pdo_mysql")
 text = text.replace(";extension=mysqli", "extension=mysqli")
 text = text.replace(";extension=bz2", "extension=bz2")
+text = text.replace(";extension=iconv", "extension=iconv")
 
 with open("/etc/php/php.ini", "w") as file:
     file.write(text)
